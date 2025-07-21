@@ -10,6 +10,10 @@ The Smartpanel Service Description Importer is a PHP script designed to automate
 * Provides robust error handling for smooth troubleshooting.
 * Safeguards against SQL injection through secure data handling.
 
+## Compatibility
+
+This script is specifically tailored for Smartpanel users utilizing the Provider API v2.
+
 ## How It Works
 
 1. **Database Connection:**
@@ -27,6 +31,23 @@ The Smartpanel Service Description Importer is a PHP script designed to automate
 4. **Database Update:**
 
    * Updates the database securely with the extracted service descriptions for matching service IDs.
+
+## Obtaining the desc.txt File
+
+To generate the required `desc.txt` file:
+
+1. Open the service page of the provider you are using.
+2. Allow the page to completely load.
+3. View the page source code.
+4. Copy the entire source code and save it into a `.txt` file.
+
+The script will use this `.txt` file to import the service descriptions and IDs.
+
+## Successful Execution
+
+Upon successful execution, you will receive a response similar to the one in this image:
+
+![Successful Response](https://prnt.sc/Mr6L6427r_tD)
 
 ## Requirements
 
@@ -65,6 +86,10 @@ php smartpanel-service-importer.php
 * Protect database credentials and avoid public exposure.
 * Manage sensitive data using environment variables or secured configuration files.
 * Keep your PHP and MySQL installations up-to-date to mitigate vulnerabilities.
+
+## Support
+
+For further explanation or assistance, you can contact me via WhatsApp: [+2347015367977 - Sammyloaded](https://wa.me/2347015367977).
 
 ## License
 
