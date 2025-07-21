@@ -45,9 +45,7 @@ The script will use this `.txt` file to import the service descriptions and IDs.
 
 ## Successful Execution
 
-Upon successful execution, you will receive a response similar to the one in this image:
-
-![Successful Response](https://prnt.sc/Mr6L6427r_tD)
+Upon successful execution, you will receive a response similar to the one in this image: https://prnt.sc/Mr6L6427r_tD
 
 ## Requirements
 
