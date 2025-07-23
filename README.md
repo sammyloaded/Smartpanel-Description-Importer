@@ -73,7 +73,7 @@ $file_content = file_get_contents('your_text_file_url');
 
 ## Usage
 
-Execute the script by accessing it via your web browser or through the PHP CLI:
+Execute the script by accessing it via your web browser by inputting your weburl /the file directory eg(example.com/ddescimporter.php) or through the PHP CLI:
 
 ```bash
 php smartpanel-service-importer.php
